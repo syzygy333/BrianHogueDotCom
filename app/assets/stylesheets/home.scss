@@ -1,5 +1,6 @@
 body {
-  background-color: #00CD99;
+  background-image: url("building.jpg");
+  background-size: cover;
 }
 
 p,h1,h2,h3,h4 {
@@ -13,8 +14,7 @@ p,h1,h2,h3,h4 {
   font-size: 7em;
   font-weight: bold;
   line-height: 90%;
-  margin-top: 20px;
-  margin-bottom: -20px;
+  margin: 24px 0 -20px 20px;
 }
 
 hr {
@@ -23,6 +23,5 @@ hr {
 }
 
 .title {
-  margin-bottom: -13px;
-  margin-top: 0;
+  margin: 0 0 -13px 27px;
 }
