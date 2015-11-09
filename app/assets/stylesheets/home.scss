@@ -1,4 +1,4 @@
-p,h1,h2,h3,h4 {
+h1,h2,h3,h4,p {
   color: #f2f2f2;
   font-family: 'Arvo', serif;
   font-weight: lighter;
@@ -14,44 +14,54 @@ li {
   float: right;
   list-style: none;
   margin-right: 20px;
+  margin-top: 1px;
 }
 
 li a:active,li a:link,li a:visited {
   color: #f2f2f2;
+  transition: .7s;
 }
 
 li a:hover {
   color: #669999;
+  transition: .7s;
+}
+
+.content:first-child {
+  margin: 45px 0 0 43px;
+}
+
+.content {
+  margin: 25px 0 0 43px;
 }
 
 .home {
   background-image: url("building.jpg");
   background-size: cover;
 }
-  // transition: background-image 2s ease-in-out;
 
 .name {
   font-family: 'Poppins', sans-serif;
   font-size: 7em;
   font-weight: bold;
+  letter-spacing: -5px;
   line-height: 90%;
   margin: 24px 0 -20px 20px;
 }
 
-.nonhome {
-  background-image: url("building2.jpg");
-  background-size: cover;
-}
-
-.overlay{
+.overlay {
     opacity:0.8;
-    background-color:#ccc;
     position:fixed;
     width:100%;
     height:100%;
     top:0px;
     left:0px;
     z-index:1000;
+}
+
+.social {
+  float: left;
+  margin-left: 43px;
 }
 
 .title {
