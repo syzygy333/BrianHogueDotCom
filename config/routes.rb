@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'home/code'
   get 'home/design'
   get 'home/resume'
+  get 'home/writing'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -13,4 +13,7 @@ class HomeController < ApplicationController
 
   def resume
   end
+
+  def writing
+  end
 end
