@@ -12,11 +12,6 @@ body {
   background-size: cover;
 }
 
-html,body {
-  height: auto;
-  min-height: 100%;
-}
-
 h1,h2,h3,h4,p {
   color: #f2f2f2;
   font-family: 'Arvo', serif;
@@ -26,6 +21,10 @@ h1,h2,h3,h4,p {
 hr {
   border-bottom: 8px solid #f2f2f2;
   margin-bottom: 5px;
+}
+
+img {
+  border: 4px solid #f2f2f2;
 }
 
 li {
@@ -47,19 +46,15 @@ li a:hover {
 }
 
 .content {
-  margin: 0 0 25px 43px;
+  margin: 0 0 25px 11px;
 }
 
 .content:first-child {
-  margin: 45px 0 25px 43px;
+  margin: 45px 0 25px 11px;
 }
 
 .header-link {
-  margin: 0 0 0 43px;
-}
-
-.icon-links a {
-  font-size: 2em;
+  margin: 0 0 10px 11px;
 }
 
 .name {
@@ -73,7 +68,7 @@ li a:hover {
 
 .social {
   float: left;
-  margin-left: 43px;
+  margin-left: 11px;
 }
 
 .title {
