@@ -1,19 +1,17 @@
-<div class="overlay home">
-  <%= render "navigation" %>
-  <div class="small-12 medium-6 large-4 columns">
-    <p class="content">
-      Here are a couple of projects that I worked on during my time at Launch Academy.
-    </p>
-    <%= image_tag "studybuddy.png", alt: "Study Buddy screenshot", class: "content" %>
-    <h4 class="header-link"><%= link_to "Study Buddy", "http://the-study-buddy.herokuapp.com", target: "_blank" %></h4>
-    <p class="content">
-      This was a group project that we spent two weeks working on that helped us get familiarized with an agile development environment, refine our TDD approach, run morning standups, coordinate our Git workflow and contribute to code reviews on pull requests. The main requirements were to create a Yelp-style site that would let users post reviews — in this case reviews of places to study in Boston — and to vote and comment on reviews by others. It also had to incorporate a search function, basic CRUD functionality, user authentication, mailers and pagination.
-    </p>
-    <%= image_tag "launchloot.png", alt: "LaunchLoot screenshot", class: "content" %>
-    <h4 class="header-link"><%= link_to "LaunchLoot", "http://launchloot.herokuapp.com", target: "_blank" %></h4>
-    <p class="content">
-      This was a solo project that we spent the final two weeks working on. It had many of the same requirements as the group project, the difference being that it was done with a team of one instead of a team of four. I wanted to create an app that reflected my love of RPGs and the randomized loot that you often get while questing in them. Users start or join a quest and once five people are on a quest together, they all receive an email with a link to "open" a chest. The loot they receive is saved to their account and they can then equip it onto an avatar to show off to their friends.
-    </p>
-    <%= render "social" %>
-  </div>
+<%= render "navigation" %>
+<div class="small-12 medium-6 large-4 columns">
+  <p class="content">
+    Here are a couple of projects that I worked on during my time at Launch Academy.
+  </p>
+  <%= image_tag "studybuddy.png", alt: "Study Buddy screenshot", class: "content" %>
+  <h4 class="header-link"><%= link_to "Study Buddy", "http://the-study-buddy.herokuapp.com", target: "_blank" %></h4>
+  <p class="content">
+    This was a group project that we spent two weeks working on that helped us get familiarized with an agile development environment, refine our TDD approach, run morning standups, coordinate our Git workflow and contribute to code reviews on pull requests. The main requirements were to create a Yelp-style site that would let users post reviews — in this case reviews of places to study in Boston — and to vote and comment on reviews by others. It also had to incorporate a search function, basic CRUD functionality, user authentication, mailers and pagination.
+  </p>
+  <%= image_tag "launchloot.png", alt: "LaunchLoot screenshot", class: "content" %>
+  <h4 class="header-link"><%= link_to "LaunchLoot", "http://launchloot.herokuapp.com", target: "_blank" %></h4>
+  <p class="content">
+    This was a solo project that we spent the final two weeks working on. It had many of the same requirements as the group project, the difference being that it was done with a team of one instead of a team of four. I wanted to create an app that reflected my love of RPGs and the randomized loot that you often get while questing in them. Users start or join a quest and once five people are on a quest together, they all receive an email with a link to "open" a chest. The loot they receive is saved to their account and they can then equip it onto an avatar to show off to their friends.
+  </p>
+  <%= render "social" %>
 </div>
