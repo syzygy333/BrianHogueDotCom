@@ -12,7 +12,7 @@ body {
   background-size: cover;
 }
 
-h1,h2,h3,h4,p {
+h1,h2,h3,h4,li,p {
   color: #f2f2f2;
   font-family: 'Arvo', serif;
   font-weight: lighter;
@@ -29,7 +29,7 @@ img {
 
 li {
   display: inline;
-  float: right;
+  font-size: 24px;
   list-style: none;
   margin: 1px 20px 0 0;
 }
@@ -70,6 +70,18 @@ li a:hover {
   background-color: #B1433D;
 }
 
+.menu {
+  float: right;
+  margin-bottom: -15px;
+}
+
+@media only screen and (max-width: 930px) {
+  .menu {
+    float: left;
+    text-align: center;
+  }
+}
+
 .social {
   float: left;
   margin-left: 11px;
@@ -77,5 +89,12 @@ li a:hover {
 
 .title {
   float: left;
-  margin: 4px 0 0 27px;
+  margin: 0 0 -15px 27px;
+}
+
+@media only screen and (max-width: 930px) {
+  .title {
+    margin-bottom: 0;
+    text-align: center;
+  }
 }
